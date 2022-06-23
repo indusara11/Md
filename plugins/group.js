@@ -53,7 +53,7 @@ bot(
 		const isImAdmin = await isAdmin(participants, message.client.user.jid)
 		if (!isImAdmin) return await message.sendMessage(`_I'm not admin._`)
 		match = match || message.reply_message.jid
-		if (!match) return await message.sendMessage('Example : add 91987654321')
+		if (!match) return await message.sendMessage('Example : add 94766816809')
 		match = jidToNum(match)
 		const res = await message.Add(match)
 		if (res == '403') return await message.sendMessage('_Failed, Invite sent_')
@@ -212,11 +212,11 @@ bot(
 		const res = await message.infoInvite(code)
 		return await message.sendMessage(
 			'```' +
-				`Name    : ${res.subject}
-Jid     : ${res.id}@g.us
-Owner   : ${jidToNum(res.creator)}
-Members : ${res.size}
-Created : ${formatTime(res.creation)}` +
+				`💃Name    : ${res.subject}
+■Jid     : ${res.id}@g.us
+■Owner   : ${jidToNum(res.creator)}
+■Members : ${res.size}
+■Created : ${formatTime(res.creation)}` +
 				'```'
 		)
 	}
