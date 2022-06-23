@@ -21,7 +21,7 @@ bot(
 						{
 							urlButton: {
 								text: 'example',
-								url: 'https://github.com/lyfe00011//whatsapp-bot-md/wiki/mention_example',
+								url: 'https://github.com/mrsanon1/Md/wiki/mention_example',
 							},
 						},
 						{ button: { id: 'mention on', text: 'ON' } },
