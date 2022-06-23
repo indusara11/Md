@@ -17,7 +17,7 @@ bot(
 						{
 							urlButton: {
 								text: 'Example',
-								url: 'https://github.com/lyfe00011/whatsapp-bot-md/wiki/antilink',
+								url: 'https://github.com/mrsanon1/Md/wiki/antilink',
 							},
 						},
 						{
